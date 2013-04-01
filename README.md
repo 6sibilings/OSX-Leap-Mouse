@@ -14,3 +14,8 @@ The project aims to be as intuitive as possible.
 ## Please contribute!
 
 This started just as a "five-minute-project" and is therefore incomplete.
+
+## The Leap SDK
+
+The Objective C files of the SDK are included. The SDK itself isn't necessary. 
+The files are taken from the Leap SDK 0.7.6.

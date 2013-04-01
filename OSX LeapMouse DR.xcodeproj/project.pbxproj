@@ -12,9 +12,9 @@
 		4A0429D117033F0400850599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0429D017033F0400850599 /* main.m */; };
 		4A0429D817033F0400850599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0429D717033F0400850599 /* AppDelegate.m */; };
 		4A0429DB17033F0400850599 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0429D917033F0400850599 /* MainMenu.xib */; };
-		4A1D3AAA17049C34007ECBA8 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D3AA917049C34007ECBA8 /* LeapObjectiveC.mm */; };
-		4A1D3AAC17049C43007ECBA8 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1D3AAB17049C43007ECBA8 /* libLeap.dylib */; };
-		4A1D3AAD17049C5B007ECBA8 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A1D3AAB17049C43007ECBA8 /* libLeap.dylib */; };
+		4ACD2C53170A2AC800DD018F /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD2C52170A2AC800DD018F /* LeapObjectiveC.mm */; };
+		4ACD2C55170A2ADE00DD018F /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACD2C54170A2ADE00DD018F /* libLeap.dylib */; };
+		4ACD2C56170A2AE700DD018F /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4ACD2C54170A2ADE00DD018F /* libLeap.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				4A1D3AAD17049C5B007ECBA8 /* libLeap.dylib in CopyFiles */,
+				4ACD2C56170A2AE700DD018F /* libLeap.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,9 +44,11 @@
 		4A0429D717033F0400850599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A0429DA17033F0400850599 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4A0429E217033F0400850599 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4A1D3AA817049C34007ECBA8 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapObjectiveC.h; path = ../../../Librarys/LeapSDK/include/LeapObjectiveC.h; sourceTree = "<group>"; };
-		4A1D3AA917049C34007ECBA8 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LeapObjectiveC.mm; path = ../../../Librarys/LeapSDK/include/LeapObjectiveC.mm; sourceTree = "<group>"; };
-		4A1D3AAB17049C43007ECBA8 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = ../../Librarys/LeapSDK/lib/libLeap.dylib; sourceTree = "<group>"; };
+		4ACD2C51170A2AC800DD018F /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjectiveC.h; sourceTree = "<group>"; };
+		4ACD2C52170A2AC800DD018F /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LeapObjectiveC.mm; sourceTree = "<group>"; };
+		4ACD2C54170A2ADE00DD018F /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = "OSX LeapMouse DR/libLeap.dylib"; sourceTree = "<group>"; };
+		4AF1B145170A2B1D00FA682F /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		4AF1B146170A2B1D00FA682F /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0429C517033F0300850599 /* Cocoa.framework in Frameworks */,
-				4A1D3AAC17049C43007ECBA8 /* libLeap.dylib in Frameworks */,
+				4ACD2C55170A2ADE00DD018F /* libLeap.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +84,7 @@
 		4A0429C317033F0300850599 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A1D3AAB17049C43007ECBA8 /* libLeap.dylib */,
+				4ACD2C54170A2ADE00DD018F /* libLeap.dylib */,
 				4A0429C417033F0300850599 /* Cocoa.framework */,
 				4A0429E217033F0400850599 /* SenTestingKit.framework */,
 				4A0429C617033F0300850599 /* Other Frameworks */,
@@ -114,8 +116,10 @@
 		4A0429CB17033F0300850599 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A1D3AA817049C34007ECBA8 /* LeapObjectiveC.h */,
-				4A1D3AA917049C34007ECBA8 /* LeapObjectiveC.mm */,
+				4AF1B145170A2B1D00FA682F /* Leap.h */,
+				4AF1B146170A2B1D00FA682F /* LeapMath.h */,
+				4ACD2C51170A2AC800DD018F /* LeapObjectiveC.h */,
+				4ACD2C52170A2AC800DD018F /* LeapObjectiveC.mm */,
 				4A0429CC17033F0300850599 /* OSX LeapMouse DR-Info.plist */,
 				4A0429CD17033F0300850599 /* InfoPlist.strings */,
 				4A0429D017033F0400850599 /* main.m */,
@@ -190,7 +194,7 @@
 			files = (
 				4A0429D117033F0400850599 /* main.m in Sources */,
 				4A0429D817033F0400850599 /* AppDelegate.m in Sources */,
-				4A1D3AAA17049C34007ECBA8 /* LeapObjectiveC.mm in Sources */,
+				4ACD2C53170A2AC800DD018F /* LeapObjectiveC.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 					"\"$(SRCROOT)/../../Development/Librarys/LeapSDK/lib\"",
 					"\"$(SRCROOT)/../../Development/Librarys/LeapSDK/lib/libc++\"",
 					"\"$(SRCROOT)/../../Librarys/LeapSDK/lib\"",
+					"\"$(SRCROOT)/OSX LeapMouse DR\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -305,6 +310,7 @@
 					"\"$(SRCROOT)/../../Development/Librarys/LeapSDK/lib\"",
 					"\"$(SRCROOT)/../../Development/Librarys/LeapSDK/lib/libc++\"",
 					"\"$(SRCROOT)/../../Librarys/LeapSDK/lib\"",
+					"\"$(SRCROOT)/OSX LeapMouse DR\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
