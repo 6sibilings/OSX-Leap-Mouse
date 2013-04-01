@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0429C517033F0300850599 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0429C417033F0300850599 /* Cocoa.framework */; };
+		4A0429CF17033F0400850599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0429CD17033F0300850599 /* InfoPlist.strings */; };
+		4A0429D117033F0400850599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0429D017033F0400850599 /* main.m */; };
+		4A0429D517033F0400850599 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0429D317033F0400850599 /* Credits.rtf */; };
+		4A0429D817033F0400850599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0429D717033F0400850599 /* AppDelegate.m */; };
+		4A0429DB17033F0400850599 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0429D917033F0400850599 /* MainMenu.xib */; };
+		4A1D3AAA17049C34007ECBA8 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D3AA917049C34007ECBA8 /* LeapObjectiveC.mm */; };
+		4A1D3AAC17049C43007ECBA8 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1D3AAB17049C43007ECBA8 /* libLeap.dylib */; };
+		4A1D3AAD17049C5B007ECBA8 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A1D3AAB17049C43007ECBA8 /* libLeap.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A042A04170340BC00850599 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				4A1D3AAD17049C5B007ECBA8 /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A0429C117033F0300850599 /* OSX LeapMouse DR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSX LeapMouse DR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0429C417033F0300850599 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A0429C717033F0300850599 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A0429C817033F0300850599 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A0429C917033F0300850599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A0429CC17033F0300850599 /* OSX LeapMouse DR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSX LeapMouse DR-Info.plist"; sourceTree = "<group>"; };
+		4A0429CE17033F0400850599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A0429D017033F0400850599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0429D217033F0400850599 /* OSX LeapMouse DR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSX LeapMouse DR-Prefix.pch"; sourceTree = "<group>"; };
+		4A0429D417033F0400850599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A0429D617033F0400850599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A0429D717033F0400850599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A0429DA17033F0400850599 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A0429E217033F0400850599 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A1D3AA817049C34007ECBA8 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapObjectiveC.h; path = ../../../Librarys/LeapSDK/include/LeapObjectiveC.h; sourceTree = "<group>"; };
+		4A1D3AA917049C34007ECBA8 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LeapObjectiveC.mm; path = ../../../Librarys/LeapSDK/include/LeapObjectiveC.mm; sourceTree = "<group>"; };
+		4A1D3AAB17049C43007ECBA8 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = ../../Librarys/LeapSDK/lib/libLeap.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0429BE17033F0300850599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0429C517033F0300850599 /* Cocoa.framework in Frameworks */,
+				4A1D3AAC17049C43007ECBA8 /* libLeap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0429B817033F0300850599 = {
+			isa = PBXGroup;
+			children = (
+				4A0429CA17033F0300850599 /* OSX LeapMouse DR */,
+				4A0429C317033F0300850599 /* Frameworks */,
+				4A0429C217033F0300850599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0429C217033F0300850599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0429C117033F0300850599 /* OSX LeapMouse DR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0429C317033F0300850599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D3AAB17049C43007ECBA8 /* libLeap.dylib */,
+				4A0429C417033F0300850599 /* Cocoa.framework */,
+				4A0429E217033F0400850599 /* SenTestingKit.framework */,
+				4A0429C617033F0300850599 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A0429C617033F0300850599 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A0429C717033F0300850599 /* AppKit.framework */,
+				4A0429C817033F0300850599 /* CoreData.framework */,
+				4A0429C917033F0300850599 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A0429CA17033F0300850599 /* OSX LeapMouse DR */ = {
+			isa = PBXGroup;
+			children = (
+				4A0429D617033F0400850599 /* AppDelegate.h */,
+				4A0429D717033F0400850599 /* AppDelegate.m */,
+				4A0429D917033F0400850599 /* MainMenu.xib */,
+				4A0429CB17033F0300850599 /* Supporting Files */,
+			);
+			path = "OSX LeapMouse DR";
+			sourceTree = "<group>";
+		};
+		4A0429CB17033F0300850599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D3AA817049C34007ECBA8 /* LeapObjectiveC.h */,
+				4A1D3AA917049C34007ECBA8 /* LeapObjectiveC.mm */,
+				4A0429CC17033F0300850599 /* OSX LeapMouse DR-Info.plist */,
+				4A0429CD17033F0300850599 /* InfoPlist.strings */,
+				4A0429D017033F0400850599 /* main.m */,
+				4A0429D217033F0400850599 /* OSX LeapMouse DR-Prefix.pch */,
+				4A0429D317033F0400850599 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0429C017033F0300850599 /* OSX LeapMouse DR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0429F217033F0400850599 /* Build configuration list for PBXNativeTarget "OSX LeapMouse DR" */;
+			buildPhases = (
+				4A0429BD17033F0300850599 /* Sources */,
+				4A0429BE17033F0300850599 /* Frameworks */,
+				4A0429BF17033F0300850599 /* Resources */,
+				4A042A04170340BC00850599 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OSX LeapMouse DR";
+			productName = "OSX LeapMouse DR";
+			productReference = 4A0429C117033F0300850599 /* OSX LeapMouse DR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0429B917033F0300850599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Phil Plückthun";
+			};
+			buildConfigurationList = 4A0429BC17033F0300850599 /* Build configuration list for PBXProject "OSX LeapMouse DR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A0429B817033F0300850599;
+			productRefGroup = 4A0429C217033F0300850599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0429C017033F0300850599 /* OSX LeapMouse DR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0429BF17033F0300850599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0429CF17033F0400850599 /* InfoPlist.strings in Resources */,
+				4A0429D517033F0400850599 /* Credits.rtf in Resources */,
+				4A0429DB17033F0400850599 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0429BD17033F0300850599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0429D117033F0400850599 /* main.m in Sources */,
+				4A0429D817033F0400850599 /* AppDelegate.m in Sources */,
+				4A1D3AAA17049C34007ECBA8 /* LeapObjectiveC.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A0429CD17033F0300850599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0429CE17033F0400850599 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A0429D317033F0400850599 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0429D417033F0400850599 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A0429D917033F0400850599 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0429DA17033F0400850599 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0429F017033F0400850599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A0429F117033F0400850599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A0429F317033F0400850599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX LeapMouse DR/OSX LeapMouse DR-Prefix.pch";
+				INFOPLIST_FILE = "OSX LeapMouse DR/OSX LeapMouse DR-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Development/Librarys/LeapSDK/lib\"",
+					"\"$(SRCROOT)/../../Development/Librarys/LeapSDK/lib/libc++\"",
+					"\"$(SRCROOT)/../../Librarys/LeapSDK/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A0429F417033F0400850599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX LeapMouse DR/OSX LeapMouse DR-Prefix.pch";
+				INFOPLIST_FILE = "OSX LeapMouse DR/OSX LeapMouse DR-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Development/Librarys/LeapSDK/lib\"",
+					"\"$(SRCROOT)/../../Development/Librarys/LeapSDK/lib/libc++\"",
+					"\"$(SRCROOT)/../../Librarys/LeapSDK/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0429BC17033F0300850599 /* Build configuration list for PBXProject "OSX LeapMouse DR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0429F017033F0400850599 /* Debug */,
+				4A0429F117033F0400850599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0429F217033F0400850599 /* Build configuration list for PBXNativeTarget "OSX LeapMouse DR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0429F317033F0400850599 /* Debug */,
+				4A0429F417033F0400850599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0429B917033F0300850599 /* Project object */;
+}
