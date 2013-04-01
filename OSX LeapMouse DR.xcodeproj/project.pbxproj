@@ -10,7 +10,6 @@
 		4A0429C517033F0300850599 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0429C417033F0300850599 /* Cocoa.framework */; };
 		4A0429CF17033F0400850599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0429CD17033F0300850599 /* InfoPlist.strings */; };
 		4A0429D117033F0400850599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0429D017033F0400850599 /* main.m */; };
-		4A0429D517033F0400850599 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0429D317033F0400850599 /* Credits.rtf */; };
 		4A0429D817033F0400850599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0429D717033F0400850599 /* AppDelegate.m */; };
 		4A0429DB17033F0400850599 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0429D917033F0400850599 /* MainMenu.xib */; };
 		4A1D3AAA17049C34007ECBA8 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D3AA917049C34007ECBA8 /* LeapObjectiveC.mm */; };
@@ -41,7 +40,6 @@
 		4A0429CE17033F0400850599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A0429D017033F0400850599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A0429D217033F0400850599 /* OSX LeapMouse DR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSX LeapMouse DR-Prefix.pch"; sourceTree = "<group>"; };
-		4A0429D417033F0400850599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		4A0429D617033F0400850599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A0429D717033F0400850599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A0429DA17033F0400850599 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				4A0429CD17033F0300850599 /* InfoPlist.strings */,
 				4A0429D017033F0400850599 /* main.m */,
 				4A0429D217033F0400850599 /* OSX LeapMouse DR-Prefix.pch */,
-				4A0429D317033F0400850599 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,7 +177,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0429CF17033F0400850599 /* InfoPlist.strings in Resources */,
-				4A0429D517033F0400850599 /* Credits.rtf in Resources */,
 				4A0429DB17033F0400850599 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,14 +203,6 @@
 				4A0429CE17033F0400850599 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4A0429D317033F0400850599 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A0429D417033F0400850599 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		4A0429D917033F0400850599 /* MainMenu.xib */ = {
